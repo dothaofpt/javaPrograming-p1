@@ -1,4 +1,4 @@
-// Lớp trong java
+// Lớp trong java: gán gt cho trường đt 
 public class Store5 {
     //instance fields
     String productType;
