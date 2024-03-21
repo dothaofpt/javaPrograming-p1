@@ -1,4 +1,5 @@
 //Introduction for java loops
+//Vòng lặp while
 import java.util.Random;
 public class LuckyFive {
     public static void main(String[] args){
