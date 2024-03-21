@@ -1,5 +1,5 @@
 //Inherit trong java
-package InheritAndPolymo;
+package Inherit;
 
 public class Noodle {
     double lengthInCentimeters;
