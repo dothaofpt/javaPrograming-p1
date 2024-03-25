@@ -2,7 +2,7 @@ package Polymophirsm;
 // Sử dụng lớp con làm lớp cha
 class Dinner {
   
-    private void makeNoodles(Noodle noodle, String sauce) {
+     public void makeNoodles(Noodle noodle, String sauce) {
       
       noodle.cook();
       
