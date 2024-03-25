@@ -1,6 +1,6 @@
 package session2;
-
-public class Person{
+//Object la lop cha cua tat ca cac lop
+public class Person extends Animal{
     //Fields
     private String name;
     private Integer  bornYear;
