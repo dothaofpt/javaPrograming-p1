@@ -1,14 +1,7 @@
-package lap7;
 
-// Tax.java
-interface Tax {
-    double TAX_PERCENT = 0.1; // 10 % thuế
+package  lap7;
 
-    double calculateTax(double income);
+interface Tax{
+    double TAX_PERCENT=0.1;
+  double  calculateTax(double income);
 }
-
-
-
-
-
-
