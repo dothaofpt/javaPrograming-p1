@@ -35,6 +35,22 @@ public class IntegerArrayDemo {
         }
 
     }
+    public void descSort(int arr[]){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] < arr[j]) {
+                    //gán arr[i] cho biến tạm temp
+                    int temp = arr[i];
+                    // gán hai giá trị arr[j] bằng của arr[i]
+                    arr[i] = arr[j];
+                    //gán giá trị cho temp vào arr[j] vì arr[j] gán gt arr[i]
+                    arr[j] = temp;
+                }
+            }
+        }
+
+    }
+
     public void minNumber(int arr[]) {
         int min = arr[0]; // Khởi tạo min với giá trị của phần tử đầu tiên trong mảng
         for (int i = 0; i < arr.length; i++) {

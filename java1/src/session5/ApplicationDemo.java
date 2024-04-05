@@ -17,12 +17,17 @@ public class ApplicationDemo {
         int intArray[] = new int[size];
         // Pass the array to the method: gọi ra pt để in ra màn hình số lg pt và gt tại index 3
         integerArrayDemo.createArray(intArray);
-        System.out.println("mang trc khi sap xep:");
+        System.out.println("mang trc khi tăng dần:");
         integerArrayDemo.show(intArray);
         //sap xep mang
         integerArrayDemo.ascSort(intArray);
         //mang sau khi sap xep
-        System.out.println("\n mang sau khi sap xep:");
+        System.out.println("\n mang sau khi tăng dần:");
+        integerArrayDemo.show(intArray);
+        System.out.println("mảng trước khi giảm dần:");
+        integerArrayDemo.show(intArray);
+        integerArrayDemo.descSort(intArray);
+        System.out.println("mảng sau khi giảm dần:");
         integerArrayDemo.show(intArray);
 
         System.out.println("Length of array: " + intArray.length);
