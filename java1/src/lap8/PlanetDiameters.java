@@ -1,4 +1,4 @@
-package java1.src.lap8;
+package lap8;
 import java.util.*;
 public class PlanetDiameters {
     //mảng chứa tên hành tinh trong Hệ mặt trời

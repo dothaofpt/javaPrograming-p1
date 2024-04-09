@@ -1,4 +1,4 @@
-package java1.src.lap8;
+package lap8;
 import java.util.*;
 public class LyricSet {
     private static final String[] lyric={"you", "say", "it", "best", "when", "you", "say", "nothing", "at", "all"};

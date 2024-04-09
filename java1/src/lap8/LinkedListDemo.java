@@ -6,21 +6,21 @@ import java.util.List;
 public class LinkedListDemo {
     public static void demoLinkedList() {
         // Khởi tạo LinkedList
-        LinkedList<String> student = new LinkedList<>();
+        LinkedList<String> Student = new LinkedList<>();
 
         // Thêm danh sách sinh viên
-        student.add("Ngoc");
-        student.add("Thanh");
-        student.add("Tung");
-        student.add("Binh");
-        student.add("Trong");
+        Student.add("Ngoc");
+        Student.add("Thanh");
+        Student.add("Tung");
+        Student.add("Binh");
+        Student.add("Trong");
 
         // Xóa phần tử đầu tiên và cuối cùng khỏi danh sách
-        student.poll();
-        student.pollLast();
+        Student.poll();
+        Student.pollLast();
 
         // Hiển thị danh sách sinh viên
-        showList(student);
+        showList(Student);
     }
 
     public static void showList(LinkedList<String> list) {
