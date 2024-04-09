@@ -31,15 +31,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApplicationDemo.executor": "Run",
+    "Application.ArraylistDemo.executor": "Run",
+    "Application.LyricSet.executor": "Run",
+    "Application.LyricWord.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/javaPrograming-p1",
+    "last_opened_file_path": "D:/javaPrograming-p1/java1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,6 +54,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
       </set>
     </attachedChunks>
   </component>
@@ -60,6 +68,8 @@
       <updated>1711112037132</updated>
       <workItem from="1711112038165" duration="30000" />
       <workItem from="1712205480048" duration="9905000" />
+      <workItem from="1712364956578" duration="8369000" />
+      <workItem from="1712375054189" duration="2132000" />
     </task>
     <servers />
   </component>
