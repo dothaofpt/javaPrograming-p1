@@ -1,5 +1,7 @@
 package Generic.Model;
 
+import Generic.Entity.Order;
+
 import java.sql.SQLException;
 import java.util.List;
 
@@ -13,5 +15,6 @@ public interface GenericDAO<T> {
     void add(T entity) throws SQLException;
 
     void update(T entity) throws SQLException;
+    public Order GetOrderById(int orderId) throws SQLException;
 }
 

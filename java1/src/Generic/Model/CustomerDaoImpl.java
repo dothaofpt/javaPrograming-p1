@@ -1,6 +1,7 @@
 package Generic.Model;
 
 import Generic.Entity.Customer;
+import Generic.Entity.Order;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -85,6 +86,10 @@ public class CustomerDaoImpl implements GenericDAO<Customer> {
 
     }
 
+    @Override
+    public Order GetOrderById(int orderId) throws SQLException {
+        return null;
+    }
 
 
 }

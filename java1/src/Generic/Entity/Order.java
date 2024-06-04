@@ -16,6 +16,10 @@ public class Order {
         this.status = status;
     }
 
+    public Order() {
+
+    }
+
     public int getOrderID() {
         return orderID;
     }

@@ -1,6 +1,7 @@
 package Generic.Model;
 
 
+import Generic.Entity.Order;
 import Generic.Entity.Product;
 
 import java.sql.Connection;
@@ -93,4 +94,10 @@ PreparedStatement pstm=null;
         //dong ket noi
         pstm.close();
     }
+
+    @Override
+    public Order GetOrderById(int orderId) throws SQLException {
+        return null;
+    }
+
 }
